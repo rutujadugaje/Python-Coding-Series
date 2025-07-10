@@ -27,3 +27,23 @@ Python has an open () function for opening files. It takes 2 parameters: filenam
 #open("filename", "mode of opening(read mode)")
 open("this.txt", "r")
 ```
+
+# MODES OF OPENING A FILE
+```
+r-open for reading
+
+w-bpen for writing
+
+a- open for appending
+
++- open for updating.
+
+'rb' will open for read in binary mode.
+
+'rt' will open for read in text mode.
+```
+
+# WRITE FILES IN PYTHON
+```
+In order to write to a file, we first open it in write or append mode after which, we use the python's f.write() method to write to the file!
+```
